@@ -1,0 +1,424 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="description" content="">
+  	<meta name="keywords" content="">
+  	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  	<title>安必平新闻详情</title>
+  	<meta name="renderer" content="webkit">
+  	<!-- No Baidu Siteapp-->
+  	<meta http-equiv="Cache-Control" content="no-siteapp"/>
+  	<link rel="stylesheet" href="assets/css/amazeui.min.css">
+  	<link rel="stylesheet" href="assets/css/swiper.min.css">
+  	<link rel="stylesheet" href="css/style.css">
+  	<script src="assets/js/jquery.min.js"></script>
+  	<script src="assets/js/common.js"></script>
+  	<script src="assets/js/swiper.min.js"></script>
+  	<script type="text/javascript" src="assets/js/layer.js"></script>
+</head>
+<body>
+	<!--header start-->
+	<div class="header am-show-lg-only">
+		<div class="header_top">
+			<div class="am-container am-cf">
+				<span class="am-fl welcome">您好！欢迎来到广州安必平医药科技股份有限公司！</span>
+				<div class="am-form-group am-fr choose_lang">
+				    <select id="languages">
+				    	<option value="index.html">中文</option>
+				        <option value="index.html">EN</option>
+				    </select>
+				    <span class="am-form-caret"></span>
+			    </div>
+				<div class="top_form am-fr">
+					<form action="" >
+						<input type="text" placeholder="请输入关键字" />
+						<button type="submit"><i class="am-icon-search"></i></button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="header_bottom" data-am-sticky>
+			<div class="am-container am-text-right">
+				<h1 class="am-fl logo am-text-left">
+					<a href="#" class="am-block"><img src="images/logo.png" alt="" /></a>
+				</h1>
+				<div class="nav am-inline-block">
+					<ul class="am-cf nav_list">
+						<!--注意：顶级栏目不能直接循环，需要每个单独输出-->
+						<li class="ind">
+							<a href="index.html" class="am-block">首页</a>
+						</li>
+						<li class="abo">
+							<a href="conpany_summary.html" class="am-block">走进安必平</a>
+							<div class="sub">
+								<ul class="sub_list am-cf am-animation-slide-right am-container">
+									<li><a href="conpany_summary.html" class="am-block">公司简介</a></li>
+									<li><a href="history.html" class="am-block">发展历程</a></li>
+									<li><a href="honor.html" class="am-block">企业荣誉</a></li>
+									<li><a href="culture.html" class="am-block">企业文化</a></li>
+									<li><a href="comprise.html" class="am-block">组织架构</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="new">
+							<a href="#" class="am-block">新闻中心</a>
+							<div class="sub">
+								<ul class="sub_list am-cf am-animation-slide-right am-container">
+									<li><a href="news_center.html" class="am-block">公司新闻</a></li>
+									<li><a href="news_center.html" class="am-block">学术新闻</a></li>
+									<li><a href="news_center.html" class="am-block">行业动态</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="pro">
+							<a href="product_center.html" class="am-block">产品中心</a>
+							<div class="sub">
+								<ul class="sub_list am-cf am-animation-slide-right am-container">
+									<li><a href="product_type.html" class="am-block">LBP</a></li>
+									<li><a href="product_type.html" class="am-block">PCR</a></li>
+									<li><a href="product_type.html" class="am-block">FISH</a></li>
+									<li><a href="product_type.html" class="am-block">IHC</a></li>
+									<li><a href="product_type.html" class="am-block">医学检验所</a></li>
+									<li><a href="download.html" class="am-block">下载中心</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="lea r">
+							<a href="academic_list.html" class="am-block">学术专栏</a>
+							<div class="sub">
+								<ul class="sub_list am-cf am-animation-slide-right am-container">
+									<li><a href="academic_list.html" class="am-block">指南推荐</a></li>
+									<li><a href="academic_list.html" class="am-block">彭振武工作室</a></li>
+									<li><a href="academic_list.html" class="am-block">学术文章</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="hr r">
+							<a href="recruit.html" class="am-block">人力资源</a>
+							<div class="sub">
+								<ul class="sub_list am-cf am-animation-slide-right am-container">
+									<li><a href="recruit.html" class="am-block">人才招聘</a></li>
+									<li><a href="news_center.html" class="am-block">培训新闻</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="con r">
+							<a href="contact.html" class="am-block">联系我们</a>
+							<div class="sub">
+								<ul class="sub_list am-cf  am-animation-slide-right am-container">
+									<li><a href="network.html" class="am-block">营销网络</a></li>
+									<li><a href="contact.html" class="am-block">联系方式</a></li>
+									<li><a href="message.html" class="am-block">在线留言</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--mobile header↓-->
+	<div data-am-widget="header" class="am-header am-hide-lg-only" data-am-sticky>
+		<!--返回按钮，需要时添加-->
+      	<div class="am-header-left am-header-nav">
+          	<a href="#right-link" class="">
+                <i class="am-header-icon am-icon-angle-left am-icon-sm"></i>
+          	</a>
+      	</div>
+
+      	<h1 class="am-header-title">
+	        <a data-am-smooth-scroll class="">安必平</a>
+	    </h1>
+
+      	<div class="am-header-right am-header-nav">
+          	<button class="am-btn" data-am-offcanvas="{target: '#mobile_nav', effect: 'push'}"><i class="am-header-icon am-icon-bars"></i></button>
+      	</div>
+  	</div>
+
+	<!-- mobile nav -->
+	<div data-am-widget="menu" class="am-menu am-menu-offcanvas1 mobile_nav" data-am-menu-offcanvas> 
+	    <div class="am-offcanvas" id="mobile_nav">
+	      	<div class="am-offcanvas-bar">
+		      	<ul class="am-menu-nav am-avg-sm-1">
+		      		<li class="">
+		            	<a href="index.html" class="" >首页</a>
+		          	</li>
+		          	<li class="am-parent">
+		            	<a href="##" class="" >走进安必平</a>
+		              	<ul class="am-menu-sub am-collapse  am-avg-sm-2 ">
+		                  	<li class="">
+		                    	<a href="conpany_summary.html" class="" >公司简介</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="history.html" class="" >发展历程</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="honor.html" class="" >企业荣誉</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="culture.html" class="" >企业文化</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="comprise.html" class="" >组织架构</a>
+		                  	</li>
+		                  	<!--看主栏目下有没有相应模板，如果没有则删除↓-->
+		                  	<li class="am-menu-nav-channel"><a href="#" class="" title="走进安必平">进入栏目 &raquo;</a></li>
+		              	</ul>
+		          	</li>
+		          	<li class="am-parent">
+		            	<a href="##" class="" >新闻中心</a>
+		              	<ul class="am-menu-sub am-collapse  am-avg-sm-2 ">
+		                  	<li class="">
+		                    	<a href="news_center.html" class="" >公司新闻</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="news_center.html" class="" >学术新闻</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="news_center.html" class="" >行业动态</a>
+		                  	</li>
+		                  	<!--看主栏目下有没有相应模板，如果没有则删除↓-->
+		                  	<li class="am-menu-nav-channel"><a href="#" class="" title="新闻中心">进入栏目 &raquo;</a></li>
+		              	</ul>
+		          	</li>
+		          	<li class="am-parent">
+		            	<a href="##" class="" >产品中心</a>
+		              	<ul class="am-menu-sub am-collapse  am-avg-sm-2 ">
+		                  	<li class="">
+		                    	<a href="product_type.html" class="" >LBP</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="product_type.html" class="" >PCR</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="product_type.html" class="" >FISH</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="product_type.html" class="" >IHC</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="product_type.html" class="" >医学检验所</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="product_type.html" class="" >下载中心</a>
+		                  	</li>
+		                  	<!--看主栏目下有没有相应模板，如果没有则删除↓-->
+		                  	<li class="am-menu-nav-channel"><a href="product_center.html" class="" title="产品中心">进入栏目 &raquo;</a></li>
+		              	</ul>
+		          	</li>
+		          	<li class="am-parent">
+		            	<a href="##" class="" >学术专栏</a>
+		              	<ul class="am-menu-sub am-collapse  am-avg-sm-2 ">
+		                  	<li class="">
+		                    	<a href="academic_list.html" class="" >指南推荐</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="academic_list.html" class="" >彭振武工作室</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="academic_list.html" class="" >学术文章</a>
+		                  	</li>
+		                  	<!--看主栏目下有没有相应模板，如果没有则删除↓-->
+		                  	<li class="am-menu-nav-channel"><a href="#" class="" title="学术专栏">进入栏目 &raquo;</a></li>
+		              	</ul>
+		          	</li>
+		          	<li class="am-parent">
+		            	<a href="##" class="" >人力资源</a>
+		              	<ul class="am-menu-sub am-collapse  am-avg-sm-2 ">
+		                  	<li class="">
+		                    	<a href="recruit.html" class="" >人才招聘</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="news_center.html" class="" >培训新闻</a>
+		                  	</li>
+		                  	<!--看主栏目下有没有相应模板，如果没有则删除↓-->
+		                  	<li class="am-menu-nav-channel"><a href="#" class="" title="人力资源">进入栏目 &raquo;</a></li>
+		              	</ul>
+		          	</li>
+		          	<li class="am-parent">
+		            	<a href="##" class="" >联系我们</a>
+		              	<ul class="am-menu-sub am-collapse  am-avg-sm-2 ">
+		                  	<li class="">
+		                    	<a href="network.html" class="" >营销网络</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="contact.html" class="" >联系方式</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="message.html" class="" >在线留言</a>
+		                  	</li>
+		                  	<!--看主栏目下有没有相应模板，如果没有则删除↓-->
+		                  	<li class="am-menu-nav-channel"><a href="#" class="" title="联系我们">进入栏目 &raquo;</a></li>
+		              	</ul>
+		          	</li>
+		      	</ul>
+				<div class="aside">
+					<a href="#" class="languages">EN</a>
+					<!--<a href="#" class="languages">中文</a>-->
+				</div>
+	      	</div>
+	    </div>
+  	</div>
+	<!--header end-->
+	
+	<!--column_banner start-->
+	<div class="swiper-container column_banner">
+        <img src="images/news_bn_02.jpg" class="am-img-responsive" alt="" />
+        <div class="content">
+        	<div class="am-container">
+        		<h4 class="column_name" data-am-scrollspy="{animation: 'slide-bottom', delay: 300,repeat: false}">新闻中心&nbsp;&nbsp;<span>NEWS</span></h4>
+        	</div>
+        </div>
+    </div>
+	<!--column_banner end-->
+	
+	<!--main start-->
+	<div class="new_details column_main">
+		<!--breadcrumb start-->
+		<div class="breadcrumb am-show-lg-only" >
+			<div class="am-container am-cf">
+				<ol class="am-breadcrumb am-margin-0 am-fl">
+				  	<li><a href="#" class="am-icon-home">首页</a></li>
+				  	<li><a href="#">新闻中心</a></li>
+				 	<li class="am-active">公司新闻</li>
+				</ol>
+				<ul class="am-fr sub_nav">
+					<li class="on"><a href="#">公司新闻</a></li>
+					<li><a href="#">学术新闻</a></li>
+					<li><a href="#">行业动态</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--breadcrumb end-->
+		<!--content start-->
+		<div class="content">
+			<div class="top">
+				<div class="news_info am-text-center">
+					<div class="title" data-am-scrollspy="{animation: 'slide-bottom', delay: 300, repeat:false}">勿忘初心，携手共进——记2016年度安必平年终总结会</div>
+					<div class="date" data-am-scrollspy="{animation: 'slide-bottom', delay: 400, repeat:false}">时间：2017-10-27 16:50:30</div>
+				</div>
+				<div class="am-container news_content"  data-am-scrollspy="{animation: 'fade', delay: 500, repeat:false}">
+					<div data-am-widget="paragraph" class="am-paragraph am-paragraph-default " data-am-paragraph="{ tableScrollable: true, pureview: false }">
+						<p style="font-size: 15px;color: #666;text-indent: 2em;line-height: 2;"> 一月的广州，少了几分寒意，多了些许阳光。在这春意盎然的日子里，2016年度广州安必平年终总结大会于1月7号在广州隆重举行，来自全国各地的安必平人齐聚一堂，共同分享过去一年的喜悦，满怀信心期待新年的到来。安必平总经理蔡向挺先生、副总经理汪友明先生先后对公司发展进行了年终总结，并展望了未来。随后进行的年度颁奖及抽奖环节，公司对2016年涌现出的众多优秀员工及团队进行颁奖，期望新的一年，大家再接再厉，再创辉煌！颁奖典礼结束后，还举行安必平首届拔河比赛，八只队伍各显身手，场下拉拉队员加油助威，最终，销售部获得胜利，安必平2016年总结大会也在一片欢声笑语中拉下帷幕。</p>
+						<img src="images/new_detail_03.jpg" alt="" />
+						<p style="font-size: 16px;color: #666;margin:10px 0;" align="center">安必平大团圆</p>
+						<img src="images/new_detail_06.jpg" alt="" />
+						<p style="font-size: 16px;color: #666;margin:10px 0;" align="center">总经理蔡向挺先生发言</p>
+						<img src="images/new_detail_08.jpg" alt="" />
+						<p style="font-size: 16px;color: #666;margin:10px 0;" align="center">副总经理汪友明先生发言</p>
+						<img src="images/new_detail_10.jpg" alt="" />
+						<p style="font-size: 16px;color: #666;margin:10px 0;" align="center">颁奖典礼</p>
+						<img src="images/new_detail_12.jpg" alt="" />
+						<p style="font-size: 16px;color: #666;margin:10px 0;" align="center">抽奖环节</p>
+						<p style="font-size: 15px;color: #666;text-indent: 2em;line-height: 2;">在过去的2016年，我们始终坚持“成为我国病理诊断产品行业领先者，与合作伙伴分享成长价值”的企业愿景，厉兵秣马、扎扎实实地开展各系列产品线工作。2017年，我们将继续昂首向前，迎接一个个的挑战，为推动我国病理行业的发展作出贡献，创造更多的辉煌！</p>
+					</div>
+				</div>
+			</div>
+			<div class="down am-container" data-am-scrollspy="{animation: 'slide-bottom', delay: 300, repeat:false}">
+				<div class="prev am-text-truncate">
+					<i class="am-icon-angle-left am-icon-sm"></i>&nbsp;&nbsp;上一条：
+					<a href="#">子宫颈癌筛查与预防——美国妇产科医师协会最新实践指南介绍</a>
+				</div>
+				<div class="next am-text-truncate">
+					<i class="am-icon-angle-right am-icon-sm"></i>&nbsp;&nbsp;下一条：
+					<a href="#"> 分子病理诊断实验室建设指南（试行）</a>
+				</div>
+				<a href="javascript:history.back(-1)" class="return am-hide-sm-only" title="返回"><i class="am-icon-reply"></i></a>
+			</div>
+		</div>
+		<!--content end-->
+	</div>
+	<!--main end-->
+	
+	<!--footer start-->
+	<div class="footer">
+		<div class="am-container am-text-center footer_top am-show-lg-only">
+			<h1 class="logo am-fl">
+				<a href="#" class="am-block"><img src="images/logo.png" class="am-img-responsive" alt="" /></a>
+			</h1>
+			<div class="foot_nav am-inline-block">
+				<ul class="am-avg-sm-5">
+					<li>
+						<div class="content">
+							<a class="am-block" href="#">走进安必平</a>
+							<ul class="sub">
+								<li><a href="#">公司简介</a></li>
+								<li><a href="#">发展历程</a></li>
+								<li><a href="#">企业荣誉</a></li>
+								<li><a href="#">企业文化</a></li>
+								<li><a href="#">组织架构</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="content">
+							<a class="am-block" href="#">产品中心</a>
+							<ul class="sub">
+								<li><a href="#">LBP</a></li>
+								<li><a href="#">PCR</a></li>
+								<li><a href="#">FISH</a></li>
+								<li><a href="#">IHC</a></li>
+								<li><a href="#">医学检验所</a></li>
+								<li><a href="#">下载中心</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="content">
+							<a class="am-block" href="#">学术专栏</a>
+							<ul class="sub">
+								<li><a href="#">指南推荐</a></li>
+								<li><a href="#">彭振武工作室</a></li>
+								<li><a href="#">学术文章</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="content">
+							<a class="am-block" href="#">人力资源</a>
+							<ul class="sub">
+								<li><a href="#">人才招聘</a></li>
+								<li><a href="#">培训新闻</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="content">
+							<a class="am-block" href="#">联系我们</a>
+							<ul class="sub">
+								<li><a href="#">营销网络</a></li>
+								<li><a href="#">联系方式</a></li>
+								<li><a href="#">在线留言</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="ewm am-fr">
+				<span class="am-block">
+					<img src="images/ewm_03.jpg" class="am-img-responsive"/>
+				</span>
+				<p>官方微信</p>
+			</div>
+		</div>
+		<div class="am-container company_info am-hide-lg-only">
+			<p>地址:广州市萝岗区科学城南翔三路11号自编7栋</p>
+			<p>TEL：020-32299997</p>
+			<p>邮箱：gzlbp@126.com</p>
+		</div>
+		<div class="am-container copyright am-cf">
+			<p class="am-fl">版权所有广州安必平(LBP)医药科技股份有限公司    |     粤ICP备11031425号</p>
+			<p class="am-fr"><a href="#" class="am-inline-block">法律声明</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="am-inline-block">隐私条款</a></p>
+		</div>
+	</div>
+	<!--footer end-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="assets/js/amazeui.min.js"></script>
+</body>
+</html>

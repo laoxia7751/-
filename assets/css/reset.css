@@ -1,0 +1,116 @@
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+  margin: 0;
+  padding: 0;
+}
+fieldset,
+img {
+  border: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+a:focus,
+a:active,
+a:hover {
+  color: #333;
+}
+.por {
+  position: relative;
+}
+.poa {
+  position: absolute;
+}
+.am-paragraph-default {
+  margin: 0;
+}
+.am-paragraph-default img {
+  border: none;
+  padding: 0;
+  max-width: 100%;
+}
+.am-close {
+  font-size: 24px;
+}
+/*滚动条美化*/
+body::-webkit-scrollbar {
+  width: 10px !important;
+}
+body::-webkit-scrollbar-track {
+  background-color: #f3f3f3;
+}
+body::-webkit-scrollbar-track-piece {
+  background-color: #f3f3f3;
+  -webkit-border-radius: 4px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  border: solid 1px #C0C0C0;
+  border-radius: 4px;
+}
+body::-webkit-scrollbar-corner {
+  background-color: #ddd;
+}
+body::-webkit-resizer {
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #F3F3E0;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+.tac {
+  text-align: center;
+}
+.flex {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -moz-flexbox;
+}
+.lc {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+.hc {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.allc {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
